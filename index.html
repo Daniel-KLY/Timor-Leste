@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Timor-Leste | Official Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --tl-red: #d01022;
+            --tl-yellow: #FFC726;
+            --tl-black: #000000;
+        }
+
+        * { box-sizing: border-box; scroll-behavior: smooth; }
+
+        body { 
+            font-family: 'Open Sans', sans-serif; 
+            margin: 0; 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=2000');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: #333; 
+        }
+
+        nav {
+            background: rgba(0, 0, 0, 0.9);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 4px solid var(--tl-yellow);
+            padding: 10px 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-row { display: flex; justify-content: center; flex-wrap: wrap; padding: 5px 0; }
+        nav a {
+            color: white; text-decoration: none; margin: 0 15px;
+            font-family: 'Montserrat', sans-serif; font-size: 0.85rem;
+            font-weight: bold; transition: 0.3s; text-transform: uppercase;
+        }
+        nav a:hover { color: var(--tl-yellow); transform: scale(1.1); }
+
+        header {
+            height: 40vh; display: flex; flex-direction: column;
+            justify-content: center; align-items: center; color: white;
+            text-align: center; text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+        }
+
+        .container { max-width: 950px; margin: 30px auto; padding: 0 20px; }
+
+        section {
+            background: rgba(255, 255, 255, 0.95); 
+            margin-bottom: 60px; padding: 40px; border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            border-top: 8px solid var(--tl-red);
+        }
+
+        h2 { font-family: 'Montserrat', sans-serif; color: var(--tl-red); margin-top: 0; }
+
+        /* Media styling */
+        .user-image {
+            width: 100%; max-height: 500px; object-fit: cover;
+            border-radius: 12px; margin: 20px 0; border: 1px solid #ddd;
+        }
+
+        .video-container {
+            position: relative; padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden; border-radius: 12px; margin-bottom: 20px;
+        }
+
+        .video-container iframe {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        }
+
+        footer { background: rgba(0,0,0,0.9); color: #eee; text-align: center; padding: 40px; margin-top: 80px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-row">
+            <a href="#001">001 Country</a> <a href="#002">002 Health</a> <a href="#003">003 Politics</a>
+            <a href="#004">004 Person</a> <a href="#005">005 Culture</a> <a href="#006">006 Music</a>
+        </div>
+        <div class="nav-row">
+            <a href="#007">007 Language</a> <a href="#008">008 Sports</a> <a href="#009">009 Beauty</a>
+            <a href="#010">010 Population</a> <a href="#011">011 Communication</a> <a href="#012">012 Environment</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1 style="font-family: 'Montserrat'; font-size: 3.5rem; margin: 0;">TIMOR-LESTE</h1>
+        <p style="font-size: 1.2rem; color: var(--tl-yellow);">Official Presentation Website</p>
+    </header>
+
+    <div class="container">
+
+        <section id="001">
+            <h2>001. Asian Country</h2>
+            <p>An Asian country is a unique nation located on the world’s largest and most diverse continent, Asia, which is home to a vast array of cultures, languages, landscapes, and histories. Each country in Asia has its own rich heritage shaped by centuries of tradition, religion, and interactions with neighboring regions. From bustling modern cities to serene rural villages, Asian countries offer a blend of ancient customs and contemporary progress. They play important roles in regional economics, cultural exchange, and global diplomacy, reflecting the dynamic spirit and diversity of the continent as a whole.</p>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0;">
+                <img src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2018/04/Pagodas-in-Myanmar.jpg" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://static.vinwonders.com/production/Best-countries-to-visit-in-asia-03.jpg" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ54Shk8zU-Fwi_2I4zbRuF81aWLGZSSwGbkw&s" alt="Timor 3" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://www.trafalgar.com/real-word/wp-content/uploads//2024/05/singapore-1024x576.jpg" alt="Timor 4" class="user-image" style="margin:0; height: 200px;">
+            </div>
+
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/K6uoebBviGw?si=n5VNFnMqDO4JMm54" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="002">
+            <h2>002. Health and Wellness</h2>
+            <p>Health and wellness in Timor-Leste focus on making health services available to all people, especially through free public healthcare at government clinics and hospitals. The country is working toward Universal Health Coverage (UHC) so that everyone can get care when they need it without high costs. Recent progress includes expanding primary health care services, improving access to vaccines, and training more health workers to serve communities even in remote areas. Timor-Leste has also achieved major public health milestones such as eliminating diseases like lymphatic filariasis and moving closer to better prevention and treatment for many common illnesses.</p>
+            <img src="https://assets-us-01.kc-usercontent.com/99f113b4-e5f7-00d2-23c0-c83ca2e4cfa2/0374c363-0a6a-4720-8ccb-0824499dacac/juvita-baby-chc-Bourdalonia2022.jfif?w=850&fm=jpg&auto=format" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://www.who.int/images/default-source/searo---images/countries/timor-leste/5s-timor-leste/dsc_7793_opt.jpg?sfvrsn=5b6799b2_1" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+
+            <div class="video-container">
+                <iframe src="https://www.youtube-nocookie.com/embed/7f3ybPem5Ow?si=SO-Np1AkLrVKdfyg" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="003">
+            <h2>003. Political Leadership</h2>
+            <p>Timor-Leste is one of Asia’s youngest democracies, but it faces several ongoing political challenges as it continues to grow. Public frustration has risen over government decisions perceived as prioritizing elite interests over everyday needs—such as a controversial plan to buy new vehicles for parliamentarians that sparked student protests and was later dropped due to widespread backlash. Political institutions also struggle with issues such as corruption, unequal access to services, and a need for stronger governance capacity, which can weaken public trust and slow progress. These challenges occur as the country balances domestic expectations with its recent entry into regional politics, including its accession to the Association of Southeast Asian Nations (ASEAN) and its role in broader diplomatic efforts.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYLo2biUE9CRAX87D0R_Oo0hqTrBJqMR5owg&s" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://www.lowyinstitute.org/sites/default/files/XG-Roughneen-mini.jpg" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ssGhiU8C5gE?si=qOiJFXh2S4RSupjK" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="004">
+            <h2>004. Personality</h2>
+            <p>While there’s no official psychological study that says exactly which Myers-Briggs Type Indicator (MBTI) type most Timorese people are, personality resources sometimes link Timor-Leste with types like INFP — often described as gentle, resilient, and deeply connected to values and culture — which reflects the country’s strong sense of community and heritage. People in Timor-Leste are known for their warmth, hospitality, loyalty to family and tradition, and their resilient spirit shaped by history and close-knit social ties. These cultural traits often align with MBTI qualities that emphasize empathy, introspection, and strong personal values.</p>
+           
+<img src="https://www.mentorink.com/wp-content/uploads/2024/09/Myers-Briggs-Type-Indicator-_MBTI_-Test-A-Complete-Guide-_1_.webp" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://scl.cornell.edu/sites/scl/files/2022-06/MBTI.png" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/xJntjbwRwgs?si=wv_CIlLckWxtqFV1" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="005">
+            <h2>005. Cultural Festivals</h2>
+            <p>Timor-Leste celebrates many vibrant cultural festivals that reflect its rich traditions, history, and community spirit. One of the major events is FITUN FEST, an international cultural festival featuring music, traditional performances, local cuisine, and artistic exhibitions that highlight Timorese heritage and encourage cultural exchange. In addition, the annual Gastronomy Festival showcases Timor-Leste’s unique culinary traditions during National Independence Day celebrations, bringing people together through food and festivities. Other notable cultural celebrations include traditional ceremonies such as the Mechi harvest rituals on Valu Beach, local dance and music festivals across municipalities, and festivities tied to national holidays like Restoration of Independence Day, where traditional songs and dances bring communities together in joyful celebration.</p>
+           <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXX6H4F1Oua-9erNTWAN1Yx6F89T3G_Llr4SbdArErH6MB62ZigCuoZLAkhcEFLooa1btJDIoxZ4_bCTMQ4OuKMCvNeXmY-YbTRUQJvD45JiN2bpq30IysdUd45zx3I8EEsRbCbTWSCBY/s1600/201307232117560.420122_476812909063455_1072285684_n-782657.jpg" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://www.hlimg.com/images/events/738X538/event_1537876032m2.jpg?w=400&dpr=2.6" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/mGtstZtvwOw?si=M6Ka2MrYsg160GWc" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="006">
+            <h2>006. Local Entertainment</h2>
+            <p>Timor-Leste’s entertainment scene is a blend of **laid-back nightlife, cultural richness, and community spirit**. In the capital, Dili, evenings often begin with **sunset drinks at beachside bars and lounges**, casual meet-ups along the waterfront, and live music at local venues, creating a relaxed but sociable vibe. There’s also a lively **street food and night market culture** where locals and visitors alike gather for grilled delicacies and local treats under the stars. Beyond nightlife, Timor-Leste showcases its heritage through **festivals, traditional dance and music performances**, and cultural celebrations that highlight its vibrant artistic traditions and warm community atmosphere.
+</p>
+            <img src="https://i.ytimg.com/vi/IyuNNu7r52A/hqdefault.jpg" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://idoevents.tl/wp-content/uploads/2025/10/LN1C0254.jpg" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/guR7ugofvpE?si=uXtbsTWmq7Cgps4W" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="007">
+            <h2>007. Languages and Dialects</h2>
+            <p>Timor-Leste’s official languages are Tetum and Portuguese, with Tetum widely used as the everyday lingua franca and Portuguese mainly in government, education, and formal contexts. The constitution also recognises Indonesian and English as working languages. In addition to these, the country is home to many indigenous languages and dialects — over 15 distinct local tongues such as Mambai, Makasae, Bunak, and Kemak — reflecting its cultural diversity.</p>
+           <img src="https://i.ytimg.com/vi/o4U5TYFS3rg/maxresdefault.jpg" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://substackcdn.com/image/fetch/$s_!bvjT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58f9c7d3-9b75-486a-aa22-7fe227f579d3_1762x1228.png" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/u31QoS8y7Sg?si=pohDK-TJPi21YLdT" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="008">
+            <h2>008. Traditional Sports</h2>
+            <p>In Timor-Leste, a long-standing traditional entertainment and blood sport is cockfighting, locally known as futu manu (“fighting bird” in Tetum). It’s deeply rooted in rural and urban culture, often taking place in makeshift arenas or market gatherings, especially in the late afternoons, and drawing large crowds of mainly men who place bets on the outcome. The game involves specially bred roosters trained for aggression and stamina; fights are intense and usually brief, often ending when one bird draws first blood. While it’s a major social pastime and form of gambling that reflects community bonds and masculine identity, the practice is controversial due to concerns about animal cruelty and is officially illegal under Timor-Leste’s laws, though it persists widely in many areas.</p>
+            <img src="https://devpolicy.org/wp-content/uploads/2022/05/Red-vs-white-in-Oecussi.jpeg" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://static1.squarespace.com/static/5b4227f2a2772c7471598744/5b422ae86d2a73e49d6dac88/5cf499b0c8a55a00019b3c49/1580953813462/title.jpg?format=1500w" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/yb4gzDWDWfw?si=0Lcc-oVC4BGU25wy" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="009">
+            <h2>009. Asian Beauty</h2>
+            <p>Across much of Asia, many beauty ideals are shaped by popular media and cultural trends that often value clear, even skin, youthful looks, and refined facial features — standards seen in places like Korea and beyond that influence perceptions of attractiveness regionally. In Timor-Leste, however, beauty is often appreciated more through cultural identity and tradition rather than strict physical ideals: the hand-woven tais textiles — rich with regional patterns and colours — are a celebrated expression of heritage and are commonly worn in ceremonies and social life, reflecting a sense of beauty tied to community, history, and pride.</p>
+           <img src="https://tallypress.com/wp-content/uploads/2020/02/Beauty-scaled.jpg" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI7s6fflqxw2icuFwGThMdU7c-oLdskTojGA&s" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/26X_AWo1Lps?si=JbidzApvAAvK_Z4q" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="010">
+            <h2>010. Population</h2>
+            <p>Timor-Leste’s population is about 1.4 million people, making it one of the smaller countries in Southeast Asia in terms of population size. Most people live along the coast, especially in urban areas like Dili, while a large share of the population is young — with a median age in the early 20s — reflecting high birth rates and a youthful demographic profile. The population has been gradually increasing in recent years and remains predominantly rural outside the main towns.</p>
+            <img src="https://images.populationpyramid.net/capture/?selector=%23pyramid-share-container&url=https%3A%2F%2Fwww.populationpyramid.net/timor-leste/2100/%3Fshare%3Dtrue" alt="Timor 1" class="user-image" style="margin:0; height: 450px;">
+                            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/_cWWP_gZTcc?si=fAsFMPS-ir7QpBpu" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="011">
+            <h2>011. Communication</h2>
+            <p>In Timor-Leste, the most popular mobile apps are social and messaging platforms like Facebook, WhatsApp, and YouTube, which are widely used across the population for communication, news and entertainment. Facebook leads as the most frequently used app, followed by WhatsApp for messaging and YouTube for video content — reflecting how many people connect online via smartphones. In addition to global social apps, various dating and social networking apps such as Boo, Badoo, Tinder, MeetMe, and Tagged are commonly accessed, especially by younger users for meeting new people. There are also local and utility-focused apps like GoTimor for travel and tourism information, and mobile banking tools like Livin’ by Mandiri Timor-Leste that cater to daily services.</p>
+           <img src="https://t4.ftcdn.net/jpg/03/92/71/99/360_F_392719944_L0LYv3e7QozB2tsj3CfUN0HPC8eZQOWb.jpg" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/6BTK10nOUOg?si=JT5I-fUvSNSivhR5" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="012">
+            <h2>012. Environment</h2>
+            <p>Timor-Leste faces several environmental issues including deforestation, land degradation, soil erosion, water scarcity, weak waste management and biodiversity loss, all of which are worsened by climate change impacts like floods, droughts and landslides that threaten rural livelihoods and infrastructure. To address these problems, the government — often with international partners like the UN and EU — is strengthening climate resilience and natural resource protection through projects that build climate-resilient infrastructure, early warning systems, reforestation and ecosystem restoration, improve water and waste systems, and integrate environmental planning into national policy.</p>
+            <img src="https://i.guim.co.uk/img/media/534c3c048403084c5418cb1258f9758be8d8cc31/0_0_1957_1174/master/1957.jpg?width=480&dpr=1&s=none&crop=none" alt="Timor 1" class="user-image" style="margin:0; height: 200px;">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/radiofreeasia/2CWG7GHO5ZW4YAWJDXAAPZ2Z3M.png" alt="Timor 2" class="user-image" style="margin:0; height: 200px;">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/doXW3FxN5sw?si=0HjtWhZfiaTdAFII" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 | Timor-Leste Student Project</p>
+    </footer>
+
+</body>
+</html>
